@@ -5,6 +5,7 @@ An ImageView in android with support for rendering GIF Images
 Sample:
 
 XML:
+
 <com.androidhacks7.GIFViewAndroid
   android:id="@+id/your_gif_view" />
 
