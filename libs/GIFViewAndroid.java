@@ -49,6 +49,10 @@ public class GIFViewAndroid extends ImageView {
         } else {
             setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         }
+        try {
+            inputStream.close();
+        } catch (java.io.IOException) {
+        }
     }
 
     @Override
